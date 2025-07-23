@@ -37,6 +37,7 @@ export default [
     languageOptions: {
       globals: {
         document: "readonly",
+        fetch: "readonly", // Allow fetch global for browser
       },
     },
   },
